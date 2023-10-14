@@ -1,0 +1,92 @@
+/* Style the date input */
+
+
+.main{
+    background-color: rgb(190, 109, 83);
+    
+    height: 100vh;
+}
+.Container{
+    padding: 10px;
+    width: 60vh;
+    height: 40vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20%;
+    border-radius: 10px;
+    left: 25%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(233, 203, 203);
+}
+.textcenter{
+    background-color: #282d29;
+    font-size: 24px;
+    width: 35%;
+    margin-left: 500px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 1px;
+    color: antiquewhite;
+}
+.textcenter span{
+    font-size: 20px;
+    padding-top: 25px;
+    letter-spacing: 2px;
+    color: #ee8290;
+}
+label{
+    padding: 2%;
+    margin-left: 120px;
+    
+}
+.dob {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+    outline: none;
+    background-color: #ee8290;
+    margin: 10%;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  /* Style the date input when it's focused */
+  .dob:focus {
+    border: 1px solid #007bff; /* Change this color to your preferred focus color */
+    box-shadow: 0 0 5px #007bff; /* Change this color to match the focus color */
+  }
+
+  .Container .submit{
+    width: 50%;
+    background-color: rgb(229, 233, 139);
+    padding: 10px;
+    margin-left: 100px;
+    border-radius: 12px;
+  }
+
+  .results{
+    background-color: #ee8290;
+    width: fit-content;
+    position: fixed;
+    top: 65%;
+    left: 27%;
+    padding: 15px;
+    border-radius: 6px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .birthday-message{
+    background-color: #ee8290;
+    width: fit-content;
+    position: fixed;
+    top: 80%;
+    left: 45%;
+    padding: 15px;
+    font-weight: 600;
+    border-radius: 6px;
+    font-family: 'Courier New', Courier, monospace;
+  }
